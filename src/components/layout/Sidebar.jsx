@@ -18,13 +18,9 @@ export default function Sidebar() {
   return (
     <aside className="fixed left-0 top-0 bottom-0 w-64 gradient-warm text-white flex flex-col z-50">
       {/* Logo */}
-      <div className="px-6 py-5 border-b border-white/10">
-        <div className="flex items-center gap-2">
-          <div className="w-8 h-8 gradient-gold rounded-lg flex items-center justify-center text-white font-bold text-sm">G</div>
-          <div>
-            <h1 className="text-lg font-bold tracking-tight">Glimmora Reach</h1>
-            <p className="text-xs text-white/50">Ad Campaign Platform</p>
-          </div>
+      <div className="px-4 py-4 border-b border-white/10">
+        <div className="bg-white rounded-xl px-3 py-2 flex items-center justify-center">
+          <img src="/Glimmora_reach_logo_fit.png" alt="Glimmora Reach" className="h-10 w-auto object-contain" />
         </div>
       </div>
 
@@ -57,7 +53,7 @@ export default function Sidebar() {
             <item.icon className="w-5 h-5" />
             {item.label}
             {item.badge && (
-              <span className="ml-auto text-[10px] bg-gold/80 text-white px-1.5 py-0.5 rounded-full font-semibold">{item.badge}</span>
+              <span className="ml-auto text-[10px] bg-sky-400/90 text-white px-1.5 py-0.5 rounded-full font-semibold">{item.badge}</span>
             )}
           </NavLink>
         ))}

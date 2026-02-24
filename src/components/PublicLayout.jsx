@@ -16,15 +16,8 @@ export default function PublicLayout() {
       <header className="fixed top-0 left-0 right-0 bg-white shadow-sm z-50">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 group">
-            <div className="w-8 h-8 rounded-lg gradient-primary flex items-center justify-center">
-              <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
-              </svg>
-            </div>
-            <span className="text-lg font-bold text-primary tracking-tight group-hover:opacity-80 transition">
-              Glimmora Reach
-            </span>
+          <Link to="/" className="flex items-center group">
+            <img src="/Glimmora_reach_logo_fit.png" alt="Glimmora Reach" className="h-8 w-auto object-contain group-hover:opacity-80 transition" />
           </Link>
 
           {/* Center nav links */}

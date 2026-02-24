@@ -100,15 +100,10 @@ export default function Login() {
 
         {/* Logo and tagline */}
         <div className="relative z-10">
-          <div className="flex items-center gap-3 mb-2">
-            <div className="w-10 h-10 rounded-lg bg-white/20 flex items-center justify-center">
-              <svg className="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
-              </svg>
-            </div>
-            <span className="text-2xl font-bold text-white tracking-tight">Glimmora Reach</span>
+          <div className="inline-flex bg-white rounded-xl px-3 py-2 mb-3">
+            <img src="/Glimmora_reach_logo_fit.png" alt="Glimmora Reach" className="h-10 w-auto object-contain" />
           </div>
-          <p className="text-white/80 text-lg ml-[52px]">Enterprise Ad Campaign Platform</p>
+          <p className="text-white/80 text-lg">Enterprise Ad Campaign Platform</p>
         </div>
 
         {/* Feature bullets */}
@@ -141,13 +136,8 @@ export default function Login() {
         <div className="w-full max-w-md animate-fade-in">
           {/* Mobile-only logo */}
           <div className="lg:hidden mb-8 text-center">
-            <div className="inline-flex items-center gap-2">
-              <div className="w-9 h-9 rounded-lg gradient-primary flex items-center justify-center">
-                <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
-                </svg>
-              </div>
-              <span className="text-xl font-bold text-primary">Glimmora Reach</span>
+            <div className="inline-flex items-center">
+              <img src="/Glimmora_reach_logo_fit.png" alt="Glimmora Reach" className="h-9 w-auto object-contain" />
             </div>
           </div>
 
