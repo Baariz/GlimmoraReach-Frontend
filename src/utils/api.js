@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://web-production-b4277.up.railway.app/api',
+  baseURL: 'https://web-production-b4277.up.railway.app',
   timeout: 10000,
   headers: {
     'Content-Type': 'application/json',
